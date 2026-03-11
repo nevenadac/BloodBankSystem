@@ -1,0 +1,888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;Person_JMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtTestDonationID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt</value>
+  </data>
+  <data name="&gt;&gt;lblManageTests.Name" xml:space="preserve">
+    <value>lblManageTests</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblTestDate.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonTestAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblTestDonationID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblManageTests.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="txtTestJMB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt</value>
+  </data>
+  <data name="lblManageTests.Text" xml:space="preserve">
+    <value>Manage Tests</value>
+  </data>
+  <data name="&gt;&gt;buttonTestDelete.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbEmployeeUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="txtTestID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 25</value>
+  </data>
+  <data name="lbEmployeeUsername.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="lbEmployeeUsername.Text" xml:space="preserve">
+    <value>Employees Username</value>
+  </data>
+  <data name="&gt;&gt;pbTestsClose.Name" xml:space="preserve">
+    <value>pbTestsClose</value>
+  </data>
+  <data name="&gt;&gt;lblManageTests.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbUsername.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelTestsHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTestID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt</value>
+  </data>
+  <data name="lblTestDonationID.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;buttonTestAdd.Name" xml:space="preserve">
+    <value>buttonTestAdd</value>
+  </data>
+  <data name="DateOfTest.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;lblTestResult.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DonationID.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtTypeID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 25</value>
+  </data>
+  <data name="txtTestDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 164</value>
+  </data>
+  <data name="DonationID.HeaderText" xml:space="preserve">
+    <value>Donation </value>
+  </data>
+  <data name="buttonTestLoad.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblTestJMB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="lblTestJMB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 22</value>
+  </data>
+  <data name="buttonTestClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 384</value>
+  </data>
+  <data name="buttonTestClear.Text" xml:space="preserve">
+    <value>CLEAR</value>
+  </data>
+  <data name="&gt;&gt;txtTestDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtTestDonationID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 211</value>
+  </data>
+  <data name="&gt;&gt;pbTestsClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblTestDonationID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbTestsClose.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Person_JMB.Name" xml:space="preserve">
+    <value>Person_JMB</value>
+  </data>
+  <data name="lblTestDonationID.Text" xml:space="preserve">
+    <value>Donation ID</value>
+  </data>
+  <data name="lvlTypeID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="&gt;&gt;lblTestDate.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="buttonTestClear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblTestJMB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lvlTypeID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;lblTestResult.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panelTestsHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblTestDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Person_JMB.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonTestLoad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pbTestsClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 31</value>
+  </data>
+  <data name="&gt;&gt;buttonTestUpdate.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtTestID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panelTestsHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1110, 47</value>
+  </data>
+  <data name="&gt;&gt;txtTestJMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="txtTestJMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 335</value>
+  </data>
+  <data name="&gt;&gt;buttonTestAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTestResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 125</value>
+  </data>
+  <data name="&gt;&gt;buttonTestUpdate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pbTestsClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1064, 9</value>
+  </data>
+  <data name="lblManageTests.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 9</value>
+  </data>
+  <data name="lvlTypeID.Text" xml:space="preserve">
+    <value>Type Of Test ID</value>
+  </data>
+  <data name="&gt;&gt;txtTestID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTestID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonTestAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="Description.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblTestDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelTestsHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblTestDonationID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblTestDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtTestID.Name" xml:space="preserve">
+    <value>txtTestID</value>
+  </data>
+  <data name="&gt;&gt;buttonTestUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lvlTypeID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 258</value>
+  </data>
+  <data name="&gt;&gt;Description.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvTests.Size" type="System.Drawing.Size, System.Drawing">
+    <value>544, 315</value>
+  </data>
+  <data name="dgvTests.Location" type="System.Drawing.Point, System.Drawing">
+    <value>539, 68</value>
+  </data>
+  <data name="lblTestResult.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtTestResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 25</value>
+  </data>
+  <data name="&gt;&gt;buttonTestLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTestDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="buttonTestDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 44</value>
+  </data>
+  <data name="&gt;&gt;lblTestDonationID.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="buttonTestClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TestResult.HeaderText" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="&gt;&gt;buttonTestLoad.Name" xml:space="preserve">
+    <value>buttonTestLoad</value>
+  </data>
+  <data name="&gt;&gt;dgvTests.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DonationID.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;panelTestsHeader.Name" xml:space="preserve">
+    <value>panelTestsHeader</value>
+  </data>
+  <data name="lblManageTests.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtTestResult.Name" xml:space="preserve">
+    <value>txtTestResult</value>
+  </data>
+  <data name="lblTestDonationID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="Description.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;tbUsername.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 299</value>
+  </data>
+  <data name="buttonTestDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 384</value>
+  </data>
+  <data name="lblTestID.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;txtTestJMB.Name" xml:space="preserve">
+    <value>txtTestJMB</value>
+  </data>
+  <data name="&gt;&gt;lvlTypeID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DateOfTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormTests</value>
+  </data>
+  <data name="buttonTestClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 44</value>
+  </data>
+  <data name="lblTestResult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;txtTestResult.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonTestUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonTestLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>927, 401</value>
+  </data>
+  <data name="lbEmployeeUsername.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbEmployeeUsername.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonTestLoad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblTestJMB.Name" xml:space="preserve">
+    <value>lblTestJMB</value>
+  </data>
+  <data name="buttonTestLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 40</value>
+  </data>
+  <data name="TestResult.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="lblTestDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtTypeID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonTestClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTestID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 77</value>
+  </data>
+  <data name="&gt;&gt;DonationID.Name" xml:space="preserve">
+    <value>DonationID</value>
+  </data>
+  <data name="lblTestDonationID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbEmployeeUsername.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DateOfTest.Name" xml:space="preserve">
+    <value>DateOfTest</value>
+  </data>
+  <data name="txtTestDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt</value>
+  </data>
+  <data name="txtTestJMB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 25</value>
+  </data>
+  <data name="buttonTestUpdate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="TestResult.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buttonTestClear.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtTypeID.Name" xml:space="preserve">
+    <value>txtTypeID</value>
+  </data>
+  <data name="lbEmployeeUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 299</value>
+  </data>
+  <data name="&gt;&gt;lblTestJMB.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblTestResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 126</value>
+  </data>
+  <data name="&gt;&gt;lvlTypeID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTestID.Text" xml:space="preserve">
+    <value>Test ID</value>
+  </data>
+  <data name="&gt;&gt;buttonTestLoad.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonTestAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 384</value>
+  </data>
+  <data name="&gt;&gt;txtTestDonationID.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblTestID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="lbEmployeeUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 20</value>
+  </data>
+  <data name="panelTestsHeader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Person_JMB.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="txtTestJMB.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonTestUpdate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbEmployeeUsername.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblManageTests.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;buttonTestDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTestID.Name" xml:space="preserve">
+    <value>lblTestID</value>
+  </data>
+  <data name="lvlTypeID.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;txtTestDonationID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblManageTests.Parent" xml:space="preserve">
+    <value>panelTestsHeader</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FormTests</value>
+  </data>
+  <data name="&gt;&gt;txtTestDate.Name" xml:space="preserve">
+    <value>txtTestDate</value>
+  </data>
+  <data name="&gt;&gt;Description.Name" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="txtTestDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 25</value>
+  </data>
+  <data name="&gt;&gt;tbUsername.Name" xml:space="preserve">
+    <value>tbUsername</value>
+  </data>
+  <data name="&gt;&gt;lblTestDonationID.Name" xml:space="preserve">
+    <value>lblTestDonationID</value>
+  </data>
+  <data name="buttonTestUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 384</value>
+  </data>
+  <data name="lblTestJMB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;panelTestsHeader.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;lblTestResult.Name" xml:space="preserve">
+    <value>lblTestResult</value>
+  </data>
+  <data name="pbTestsClose.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="txtTestResult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt</value>
+  </data>
+  <data name="txtTestDonationID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 25</value>
+  </data>
+  <data name="&gt;&gt;txtTestJMB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonTestAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buttonTestDelete.Text" xml:space="preserve">
+    <value>DELETE</value>
+  </data>
+  <data name="lblTestDonationID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="buttonTestDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dgvTests.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvTests.Name" xml:space="preserve">
+    <value>dgvTests</value>
+  </data>
+  <data name="buttonTestAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 44</value>
+  </data>
+  <data name="lvlTypeID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;DonationID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTestResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTestJMB.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;buttonTestAdd.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tbUsername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTestDate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtTestResult.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblTestDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTestDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblManageTests.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonTestLoad.Text" xml:space="preserve">
+    <value>LOAD DATA</value>
+  </data>
+  <data name="txtTestResult.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblTestID.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;txtTestDate.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lbEmployeeUsername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TestResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Description.HeaderText" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="dgvTests.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;buttonTestClear.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblTestResult.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="txtTypeID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt</value>
+  </data>
+  <data name="&gt;&gt;txtTypeID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTestDonationID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lvlTypeID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblTestJMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TestResult.Name" xml:space="preserve">
+    <value>TestResult</value>
+  </data>
+  <data name="&gt;&gt;buttonTestClear.Name" xml:space="preserve">
+    <value>buttonTestClear</value>
+  </data>
+  <data name="&gt;&gt;lblTestID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTestDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonTestAdd.Text" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="&gt;&gt;buttonTestUpdate.Name" xml:space="preserve">
+    <value>buttonTestUpdate</value>
+  </data>
+  <data name="lblTestID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 78</value>
+  </data>
+  <data name="pbTestsClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;buttonTestAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelTestsHeader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTestDate.Name" xml:space="preserve">
+    <value>lblTestDate</value>
+  </data>
+  <data name="Person_JMB.HeaderText" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="lblManageTests.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 32</value>
+  </data>
+  <data name="lblTestResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="&gt;&gt;pbTestsClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTestDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 165</value>
+  </data>
+  <data name="&gt;&gt;lvlTypeID.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtTestResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTypeID.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbEmployeeUsername.Name" xml:space="preserve">
+    <value>lbEmployeeUsername</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1110, 450</value>
+  </data>
+  <data name="lblTestResult.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="buttonTestLoad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblTestJMB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonTestDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dgvTests.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="DateOfTest.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblTestID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;buttonTestDelete.Name" xml:space="preserve">
+    <value>buttonTestDelete</value>
+  </data>
+  <data name="lblTestDonationID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 212</value>
+  </data>
+  <data name="buttonTestUpdate.Text" xml:space="preserve">
+    <value>UPDATE</value>
+  </data>
+  <data name="&gt;&gt;txtTestDonationID.Name" xml:space="preserve">
+    <value>txtTestDonationID</value>
+  </data>
+  <data name="lblTestJMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 336</value>
+  </data>
+  <data name="lblTestJMB.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;lblTestID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonTestUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 44</value>
+  </data>
+  <data name="lblTestJMB.Text" xml:space="preserve">
+    <value>Employees JMB</value>
+  </data>
+  <data name="txtTestID.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonTestClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dgvTests.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblTestID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtTypeID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 257</value>
+  </data>
+  <data name="txtTypeID.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblManageTests.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTestResult.Text" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="&gt;&gt;pbTestsClose.Parent" xml:space="preserve">
+    <value>panelTestsHeader</value>
+  </data>
+  <data name="lblTestDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="DateOfTest.HeaderText" xml:space="preserve">
+    <value>Date Of Test</value>
+  </data>
+  <data name="txtTestDonationID.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblTestDate.Text" xml:space="preserve">
+    <value>Date Of Test</value>
+  </data>
+  <data name="&gt;&gt;lvlTypeID.Name" xml:space="preserve">
+    <value>lvlTypeID</value>
+  </data>
+  <data name="&gt;&gt;txtTestID.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <metadata name="Description.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DateOfTest.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Person_JMB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DonationID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TestResult.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

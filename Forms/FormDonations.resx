@@ -1,0 +1,771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;tbDonorsUserName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblManageDonations.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonDonationDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 394</value>
+  </data>
+  <data name="dgvDonations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>527, 70</value>
+  </data>
+  <data name="lblDonationDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbDeliveryID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="buttonDonationDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonDonationClear.Text" xml:space="preserve">
+    <value>CLEAR</value>
+  </data>
+  <data name="lbDonorsUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 290</value>
+  </data>
+  <data name="DateOdDonation.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;pbDonationsClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDonationBlood.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="buttonDonationClear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="txtDonationBlood.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtDonationJMB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt</value>
+  </data>
+  <data name="lblManageDonations.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtDonationID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 25</value>
+  </data>
+  <data name="&gt;&gt;lblManageDonations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonDonationsLoad.Text" xml:space="preserve">
+    <value>LOAD DATA</value>
+  </data>
+  <data name="buttonDonationDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 44</value>
+  </data>
+  <data name="&gt;&gt;lblDonationDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationAdd.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblManageDonations.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbDeliveryID.Name" xml:space="preserve">
+    <value>tbDeliveryID</value>
+  </data>
+  <data name="dgvDonations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>557, 315</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDonationBlood.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="pbDonationsClose.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="UserName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDonationDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FormDonations</value>
+  </data>
+  <data name="&gt;&gt;tbDeliveryID.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelDonorHeader.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="buttonDonationAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 44</value>
+  </data>
+  <data name="&gt;&gt;lblDonationJMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonDonationDelete.Text" xml:space="preserve">
+    <value>DELETE</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbDonorsUserName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtDonationDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDonationID.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panelDonorHeader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtDonationBlood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 135</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="lblDonationID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="lblDonationJMB.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationUpdate.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblDonationJMB.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtDonationID.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbDonorsUserName.Name" xml:space="preserve">
+    <value>lbDonorsUserName</value>
+  </data>
+  <data name="lblDonationBlood.Text" xml:space="preserve">
+    <value>Quantity Of Blood</value>
+  </data>
+  <data name="panelDonorHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblManageDonations.Name" xml:space="preserve">
+    <value>lblManageDonations</value>
+  </data>
+  <data name="tbDonorsUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 22</value>
+  </data>
+  <data name="buttonDonationDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblDonationID.Text" xml:space="preserve">
+    <value>Donation ID</value>
+  </data>
+  <data name="lblDonationID.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="lblDonationID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 85</value>
+  </data>
+  <data name="&gt;&gt;UserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonDonationAdd.Text" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="lblDonationDate.Text" xml:space="preserve">
+    <value>Date Of Donation</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationDelete.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pbDonationsClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1064, 9</value>
+  </data>
+  <data name="&gt;&gt;txtDonationBlood.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDonationJMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDonationJMB.Name" xml:space="preserve">
+    <value>txtDonationJMB</value>
+  </data>
+  <data name="lbDeliveryID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonDonationsLoad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="buttonDonationAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblDonationDate.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormDonations</value>
+  </data>
+  <data name="lblDonationDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="tbDeliveryID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 239</value>
+  </data>
+  <data name="txtDonationID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt</value>
+  </data>
+  <data name="JMB.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="lblDonationJMB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="PintOfBlood.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationsLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationUpdate.Name" xml:space="preserve">
+    <value>buttonDonationUpdate</value>
+  </data>
+  <data name="txtDonationDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt</value>
+  </data>
+  <data name="buttonDonationClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 44</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationDelete.Name" xml:space="preserve">
+    <value>buttonDonationDelete</value>
+  </data>
+  <data name="buttonDonationClear.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtDonationID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDonationBlood.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;PintOfBlood.Name" xml:space="preserve">
+    <value>PintOfBlood</value>
+  </data>
+  <data name="lblDonationJMB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblDonationBlood.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvDonations.Name" xml:space="preserve">
+    <value>dgvDonations</value>
+  </data>
+  <data name="UserName.HeaderText" xml:space="preserve">
+    <value>Donors Username</value>
+  </data>
+  <data name="txtDonationDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 189</value>
+  </data>
+  <data name="&gt;&gt;txtDonationJMB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDonationID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;txtDonationDate.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="buttonDonationUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 44</value>
+  </data>
+  <data name="lblDonationJMB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="panelDonorHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1110, 47</value>
+  </data>
+  <data name="&gt;&gt;txtDonationBlood.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblManageDonations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 9</value>
+  </data>
+  <data name="UserName.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;lblDonationID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtDonationDate.Name" xml:space="preserve">
+    <value>txtDonationDate</value>
+  </data>
+  <data name="tbDonorsUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 290</value>
+  </data>
+  <data name="buttonDonationsLoad.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblDonationDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="PintOfBlood.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblDonationID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserName.Name" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="lbDeliveryID.Text" xml:space="preserve">
+    <value>Delivery ID</value>
+  </data>
+  <data name="&gt;&gt;dgvDonations.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="JMB.HeaderText" xml:space="preserve">
+    <value>Donors JMB</value>
+  </data>
+  <data name="buttonDonationsLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 40</value>
+  </data>
+  <data name="lblDonationDate.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;lblDonationJMB.Name" xml:space="preserve">
+    <value>lblDonationJMB</value>
+  </data>
+  <data name="&gt;&gt;txtDonationBlood.Name" xml:space="preserve">
+    <value>txtDonationBlood</value>
+  </data>
+  <data name="buttonDonationsLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>915, 401</value>
+  </data>
+  <data name="buttonDonationAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 394</value>
+  </data>
+  <data name="&gt;&gt;txtDonationBlood.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="dgvDonations.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;lbDonorsUserName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationUpdate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbDeliveryID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 22</value>
+  </data>
+  <data name="txtDonationJMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 334</value>
+  </data>
+  <data name="lbDonorsUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 20</value>
+  </data>
+  <data name="txtDonationJMB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 25</value>
+  </data>
+  <data name="buttonDonationUpdate.Text" xml:space="preserve">
+    <value>UPDATE</value>
+  </data>
+  <data name="&gt;&gt;DateOdDonation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvDonations.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tbDonorsUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="lblDonationBlood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 136</value>
+  </data>
+  <data name="lblManageDonations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 32</value>
+  </data>
+  <data name="&gt;&gt;PintOfBlood.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDeliveryID.Name" xml:space="preserve">
+    <value>lbDeliveryID</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationClear.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblDonationBlood.Name" xml:space="preserve">
+    <value>lblDonationBlood</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationClear.Name" xml:space="preserve">
+    <value>buttonDonationClear</value>
+  </data>
+  <data name="DateOdDonation.HeaderText" xml:space="preserve">
+    <value>Donation Date</value>
+  </data>
+  <data name="&gt;&gt;dgvDonations.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonDonationClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 394</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JMB.Name" xml:space="preserve">
+    <value>JMB</value>
+  </data>
+  <data name="&gt;&gt;pbDonationsClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbDeliveryID.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;txtDonationID.Name" xml:space="preserve">
+    <value>txtDonationID</value>
+  </data>
+  <data name="panelDonorHeader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblDonationDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 190</value>
+  </data>
+  <data name="lblManageDonations.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbDonorsUserName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtDonationJMB.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbDeliveryID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 239</value>
+  </data>
+  <data name="txtDonationBlood.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt</value>
+  </data>
+  <data name="&gt;&gt;panelDonorHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDonationBlood.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbDeliveryID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtDonationDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 25</value>
+  </data>
+  <data name="panelDonorHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;pbDonationsClose.Parent" xml:space="preserve">
+    <value>panelDonorHeader</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationsLoad.Name" xml:space="preserve">
+    <value>buttonDonationsLoad</value>
+  </data>
+  <data name="lbDeliveryID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="txtDonationBlood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 25</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDonationID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDonationDate.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtDonationJMB.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblDonationBlood.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DateOdDonation.Name" xml:space="preserve">
+    <value>DateOdDonation</value>
+  </data>
+  <data name="txtDonationID.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonDonationUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 394</value>
+  </data>
+  <data name="&gt;&gt;pbDonationsClose.Name" xml:space="preserve">
+    <value>pbDonationsClose</value>
+  </data>
+  <data name="&gt;&gt;lblDonationJMB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonDonationUpdate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10.2pt, style=Bold</value>
+  </data>
+  <data name="buttonDonationUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationAdd.Name" xml:space="preserve">
+    <value>buttonDonationAdd</value>
+  </data>
+  <data name="DateOdDonation.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1110, 450</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationsLoad.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblDonationJMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 335</value>
+  </data>
+  <data name="&gt;&gt;tbDonorsUserName.Name" xml:space="preserve">
+    <value>tbDonorsUserName</value>
+  </data>
+  <data name="lbDonorsUserName.Text" xml:space="preserve">
+    <value>Donors Username</value>
+  </data>
+  <data name="buttonDonationAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panelDonorHeader.Name" xml:space="preserve">
+    <value>panelDonorHeader</value>
+  </data>
+  <data name="PintOfBlood.HeaderText" xml:space="preserve">
+    <value>Blood Quantity</value>
+  </data>
+  <data name="&gt;&gt;lblManageDonations.Parent" xml:space="preserve">
+    <value>panelDonorHeader</value>
+  </data>
+  <data name="lbDonorsUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="lbDeliveryID.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="lbDonorsUserName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;tbDeliveryID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblManageDonations.Text" xml:space="preserve">
+    <value>Manage Donations</value>
+  </data>
+  <data name="&gt;&gt;lbDeliveryID.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbDonorsUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDonationID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pbDonationsClose.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationsLoad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDonationID.Name" xml:space="preserve">
+    <value>lblDonationID</value>
+  </data>
+  <data name="&gt;&gt;lbDonorsUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtDonationID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 84</value>
+  </data>
+  <data name="pbDonationsClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 31</value>
+  </data>
+  <data name="&gt;&gt;lbDeliveryID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDonationDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvDonations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDonorsUserName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblDonationJMB.Text" xml:space="preserve">
+    <value>Donors JMB</value>
+  </data>
+  <data name="&gt;&gt;tbDeliveryID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDonationDate.Name" xml:space="preserve">
+    <value>lblDonationDate</value>
+  </data>
+  <data name="JMB.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonDonationClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDonationBlood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 20</value>
+  </data>
+  <metadata name="DateOdDonation.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UserName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PintOfBlood.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="JMB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
