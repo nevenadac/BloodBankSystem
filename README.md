@@ -84,11 +84,10 @@ They can only:
 
 Below are some screenshots of the application interface.
 
-![Login Screen](images/login.png)
-
-![Administrator Dashboard](images/admin.png)
-
-![Donation Management](images/donations.png)
+<img width="598" height="346" alt="image" src="https://github.com/user-attachments/assets/96ab532a-cd67-4ee8-9ae9-c8049564b78c" />
+<img width="593" height="348" alt="image" src="https://github.com/user-attachments/assets/2ff7f051-cf2b-44b7-b836-c952cba59fdb" />
+<img width="592" height="342" alt="image" src="https://github.com/user-attachments/assets/12946518-89b2-4f11-9b3e-d8b9b014fba9" />
+<img width="655" height="263" alt="image" src="https://github.com/user-attachments/assets/ad069d1d-1f9e-418c-a8f0-1f5bff49cc39" />
 
 ## Installation
 
